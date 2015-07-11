@@ -1,0 +1,62 @@
+{
+  "globals":{
+      "beehive": true,
+      "dust": true,
+      "Backbone": true,
+      "_": true,
+      "requiret": true,
+      "expect": true,
+      "chai": true
+  },
+
+  /*
+   * ENVIRONMENTS
+   * =================
+   */
+
+  // Define globals exposed by modern browsers.
+  "browser": true,
+
+  // Define globals exposed by jQuery.
+  "jquery": true,
+
+  // Define globals exposed by Node.js.
+  "node": true,
+
+  "mocha": true,
+
+  "esnext": true,
+
+  /*
+   * ENFORCING OPTIONS
+   * =================
+   */
+
+  // Prohibit use of == and != in favor of === and !==.
+  "eqeqeq": true,
+
+  // Prohibit use of a variable before it is defined.
+  "latedef": true,
+
+  // Enforce line length to 100 characters
+  "maxlen": 110,
+
+  // Require capitalized names for constructor functions.
+  "newcap": true,
+
+  // Prohibit use of explicitly undeclared variables.
+  "undef": true,
+
+  // Warn when variables are defined but never used.
+  "unused": true,
+
+  /*
+   * RELAXING OPTIONS
+   * =================
+   */
+
+  // Suppress warnings about == null comparisons.
+  "eqnull": true,
+  "asi": true,
+  "expr": true
+}

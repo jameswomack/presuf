@@ -1,0 +1,38 @@
+{
+  "name": "presuf",
+  "version": "1.0.0",
+  "description": "Transform a collection with a prefix or suffix",
+  "main": "index.js",
+  "scripts": {
+    "rme": "readme package.json > README.md",
+    "test": "mocha --inline-diffs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/presuf.git"
+  },
+  "keywords": [
+    "prefix",
+    "suffix",
+    "array",
+    "collection",
+    "callback",
+    "conditional"
+  ],
+  "author": "james@womack.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameswomack/presuf/issues"
+  },
+  "homepage": "https://github.com/jameswomack/presuf#readme",
+  "devDependencies": {
+    "esprima-fb": "15001.1.0-dev-harmony-fb",
+    "jscs": "jscs-dev/node-jscs",
+    "mocha": "2.2.5",
+    "package-json-to-readme": "1.4.1"
+  },
+  "dependencies": {
+    "amp-is-array": "1.0.1",
+    "amp-is-string": "1.0.1"
+  }
+}
